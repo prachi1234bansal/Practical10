@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid rgb(25, 78, 78);
+    width: 75%;
+    line-height: 28px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+thead tr:first-child {
+    background: rgb(25, 53, 75);
+    color: white;
+    line-height: 50px;
+}
+thead tr th:last-child {
+    text-align: center;
+    line-height: 50px;
+}
+th:first-child,
+    td:last-child {
+        padding: 0 15px 0 15px;
+    }
+
+    thead tr:last-child th {
+        border-bottom: 4px solid rgb(155, 148, 148);
+    }
+
+    thead tr th:nth-child(4) {
+        width: 100px;
+    }
+
+    tbody tr:hover {
+        background-color: whitesmoke;
+    }
+
+    tbody tr:last-child td {
+        border: none;
+    }
+
+    tbody tr td:nth-child(1) {
+        width: 50px;
+        padding-left: 15px;
+    }
+
+    tbody tr td:nth-child(2) {
+        width: 500px;
+        padding-right: 10px;
+    }
+
+    tbody td {
+        border-bottom: 1px solid rgb(168, 162, 162);
+        height: 50px;
+    }
+
+    td:last-child {
+        text-align: center;
+    }
+
+    .checked {
+        color: green;
+    }
+
+    .unchecked {
+        color: red;
+    }
+
+    i {
+        color: grey;
+    }
+
+    .edit:hover {
+        color: blue;
+        cursor: pointer;
+    }
+
+    .delete:hover {
+        color: red;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: gray;
+    }
