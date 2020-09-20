@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-size: 80px;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.form1{
+    width: 300px;
+    height: 370px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin: 20px;
+}
+.form1header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right,orange,red);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form1header h1{
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.form1header .icons i{
+    color: white;
+    padding: 10px 10px;
+}
+.form1container{
+    padding: 20px;
+}
+input[type=email]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+    width: 100%;
+}
+input[type=password]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+    width: 100%;
+}
+.form1container p{
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+    padding: 20px 0px;
+}
+.form1container p b{
+    color: black;
+}
+input[type=submit]{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+}
+.form1container p#p2{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+            /* form-2 */
+
+.form2{
+    width: 300px;
+    height: 370px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin: 20px;
+}
+.form2header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form2header h1{
+    color: deeppink;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.form2container{
+    padding: 10px;
+}
+input[type=email]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+    width: 100%;
+}
+input[type=password]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+    width: 100%;
+}
+input[type=checkbox]{
+    margin: 20px 0;
+}
+.form2container p{
+    font-size: 12px;
+    color: gray;
+    display: inline-block;
+
+}
+.form2container p b{
+    color: #3498db;
+}
+.form2container input[type=submit]{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+}
+.form2container p#p3{
+    display: inline-block;
+    margin-left: 20px;
+}
+.form2footer{
+    background-color: #778899;
+    height: 77px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form2footer .icons i{
+    color: white;
+    padding: 10px 10px;
+}
+
+            /*form -3*/
+
+.form3{
+    width: 300px;
+    height: 370px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin: 20px;
+}
+.form3header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form3header h1{
+    color: black;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.form3header .icons i{
+    color: white;
+    padding: 10px 10px;
+}
+.form3container{
+    padding: 20px;
+}
+.form3container input[type=email]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 15px 0px;
+    width: 100%;
+}
+.form3container input[type=password]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 15px 0px;
+    width: 100%;
+}
+.form3container p{
+    font-size: 12px;
+    color: #3498db;
+    text-align: right;
+    padding: 20px 0px;
+}
+.form3container p#p4{
+    text-align: center;
+    color: black;
+    margin-top: -5px;
+}
+.form3container input[type=submit]{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    background: linear-gradient(to right,skyblue,blue);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 2px;
+}
+.form3footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form3footer .icons i{
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    border-radius: 20px;
+    color: #3498db;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 5px;
+    margin-top: -10px;
+}
