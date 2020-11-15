@@ -47,7 +47,7 @@ function setGreeting() {
     document.body.style.backgroundImage = 'url("images/afternoon.jpg")';
     greeting.innerHTML = "Good Afternoon";
   } else {
-    document.body.style.backgroundImage = 'url("images/night.jpg")';
+    document.body.style.backgroundImage = 'url("images/evening.jpg")';
     greeting.innerHTML = "Good Evening";
     document.body.style.color = "white";
   }
@@ -56,7 +56,7 @@ function setGreeting() {
 
 function getName() {
   if (localStorage.getItem("myData") == null) {
-    name.innerHTML = "[Prachi Bansal]";
+    name.innerHTML = "[Enter Name]";
   } else {
     name.innerHTML = localStorage.getItem("myData");
   }
