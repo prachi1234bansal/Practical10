@@ -5,14 +5,15 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: black;
-    height: 100vh;
-
+    font-family: 'Quicksand',sans-serif;
+    color:black;
+    height:100vh;
+    background-position:center ;
+    background-size: cover;
 
 }
 
@@ -21,11 +22,11 @@ body {
 
 }
 
-h1 {
-    margin-bottom: 16px;
+h1{
+    margin-bottom: 1rem;
 }
-
-h2 {
-    font-size: 3rem;
-    opacity: 0.5;
+h2{
+      font-size: 48px;
+    opacity: .5;
+    margin-bottom: 1rem;
 }
